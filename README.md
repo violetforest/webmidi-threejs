@@ -13,8 +13,10 @@ This repository comes with:
 
 ## Step 2: Add webmidi.js to three.js
 1. Add a webmidi and webmidi-three.js `<script>` reference at the top of any three.js example of your choice.
-`<script src="src/js/webmidi.js"></script>
-<script src="src/js/webmidi-three.js"></script>`
+```javascript
+<script src="src/js/webmidi.js"></script>
+<script src="src/js/webmidi-three.js"></script>
+```
 
 ## Step 3: Assign your midi controller as the input.
 1. Plug in your midi controller.
