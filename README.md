@@ -12,14 +12,20 @@ This repository comes with:
 2. To use WebMidi.js on Safari, Firefox and Internet Explorer, you will first need to install Jazz-Plugin. Instructions here: https://github.com/cotejp/webmidi#using-webmidijs-with-the-jazz-plugin
 
 ## Step 2: Add webmidi.js to three.js
-1. Add a webmidi script and webmidi-three.js script reference at the top of any three.js example of your choice.
+1. Add a webmidi and webmidi-three.js script reference at the top of any three.js example of your choice.
 `<script src="src/js/webmidi.js"></script>
 <script src="src/js/webmidi-three.js"></script>`
 
-## Step 2: Find the knobs/faders and store them as a variable.
+## Step 2: Assign your midi controller as the input.
 1. Plug in your midi controller.
 2. Open your example in a browser.
 3. Open the browser's console.
+4. Copy the name of the midi controller and paste it into input variable:
+
+`var input = WebMidi.getInputByName("Axiom Pro 25 USB A In");`
+
+## Step 2: Find the knobs/faders and store them as a variable.
+
 2. Find the input object and find the name of your controller.
 3. Copy that controller name and use it for 
 ``var input = WebMidi.getInputByName("Axiom Pro 25 USB A In");``
