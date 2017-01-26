@@ -1,7 +1,12 @@
 # webmidi.js + three.js
 Webmidi-ready Three JS examples for VJing in the browser with midi controllers.
 
-This repository comes with webmidi.js, the entire Three.js library with native examples, and a custom webmidi.js script to pull values from a connected midi controller and store them as variables to be used in any javascript program. 
+This repository comes with:
+1. webmidi.js
+2. the entire Three.js library with native examples
+3. custom webmidi.js script to pull values from a connected midi controller and store them as variables
+
+Can be used in any javascript program. 
 
 ## Step 1: Configure webmidi.js and test your midi controller with it per these instructions.
 
