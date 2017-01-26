@@ -3,9 +3,9 @@ Webmidi-ready Three JS examples for VJing in the browser with midi controllers.
 Listens to control change message on all channels, including but not limited to knobs and faders.
 
 This repository comes with:
-* 1. webmidi.js
-* 2. the entire Three.js library with native examples
-* 3. custom webmidi.js script to pull values from a connected midi controller and store them as variables
+* webmidi.js
+* the entire Three.js library with native examples to start VJing right away
+* custom webmidi.js script to pull values from a connected midi controller and store them as variables
 
 Can be used in any javascript program. 
 
