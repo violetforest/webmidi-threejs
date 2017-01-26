@@ -16,7 +16,7 @@ This repository comes with:
 `<script src="src/js/webmidi.js"></script>
 <script src="src/js/webmidi-three.js"></script>`
 
-## Step 2: Assign your midi controller as the input.
+## Step 3: Assign your midi controller as the input.
 1. Plug in your midi controller.
 2. Open your example in a browser.
 3. Open the browser's console.
@@ -25,16 +25,23 @@ This repository comes with:
 
 `var input = WebMidi.getInputByName("nanoKONTROL SLIDER/KNOB");`
 
-## Step 2: Find the knobs/faders and store them as variables.
-
-2. Find the input object and find the name of your controller.
-3. Copy that controller name and use it for
-``var input = WebMidi.getInputByName("Axiom Pro 25 USB A In");``
+## Step 4: Store knob/faders as variables.
+1. Turn a knob or slide a fader while the console is still open.
+2. Take note of the controller number:
+![controller number](/readme-images/available-input.png "controller number")
+3. Assign that number as your fade1 or knob1 variable.
+`
+      //fade 1
+      if (e.controller.number === 6) {
+        fade1 = e.value
+        console.log("fade 1:", fade1)
+      }
+`
 
 ## Step 3: Use that variable in the rest of your program.
 1. Add the script to any three.js sketch
 2. Use that variable
 
-## Step 4: Open the example in a browser and turn some knobs.
+## Step 5: Open the example in a browser and turn some knobs.
 
 
