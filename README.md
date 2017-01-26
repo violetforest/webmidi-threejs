@@ -12,7 +12,7 @@ This repository comes with:
 2. To use WebMidi.js on Safari, Firefox and Internet Explorer, you will first need to install Jazz-Plugin. Instructions here: https://github.com/cotejp/webmidi#using-webmidijs-with-the-jazz-plugin
 
 ## Step 2: Add webmidi.js to three.js
-1. Add a webmidi and webmidi-three.js `<script>` reference at the top of any three.js example of your choice.
+Add a webmidi and webmidi-three.js `<script>` reference at the top of any three.js example of your choice.
 ```javascript
 <script src="src/js/webmidi.js"></script>
 <script src="src/js/webmidi-three.js"></script>
