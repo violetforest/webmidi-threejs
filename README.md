@@ -7,8 +7,6 @@ This repository comes with:
 * the entire Three.js library with native examples to start VJing right away
 * custom webmidi.js script to pull values from a connected midi controller and store them as variables
 
-Can be used in any javascript program. 
-
 ## Step 1: Configure webmidi.js.
 1. To use WebMidi.js on Safari, Firefox and Internet Explorer, you will first need to install Jazz-Plugin. Instructions here: https://github.com/cotejp/webmidi#using-webmidijs-with-the-jazz-plugin
 
