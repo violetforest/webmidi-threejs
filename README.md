@@ -20,7 +20,7 @@ This repository comes with:
 1. Plug in your midi controller.
 2. Open your example in a browser.
 3. Open the browser's console.
-
+![available input in console](/readme-images/available-input.png "available input in console")
 4. Copy the name of the midi controller and assign it to the `input` variable in webmidi-three.js:
 
 `var input = WebMidi.getInputByName("nanoKONTROL SLIDER/KNOB");`
@@ -28,7 +28,7 @@ This repository comes with:
 ## Step 2: Find the knobs/faders and store them as variables.
 
 2. Find the input object and find the name of your controller.
-3. Copy that controller name and use it for 
+3. Copy that controller name and use it for
 ``var input = WebMidi.getInputByName("Axiom Pro 25 USB A In");``
 
 ## Step 3: Use that variable in the rest of your program.
