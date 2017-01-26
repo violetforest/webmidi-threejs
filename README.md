@@ -24,7 +24,7 @@ This repository comes with:
 
 `var input = WebMidi.getInputByName("nanoKONTROL SLIDER/KNOB");`
 
-## Step 2: Find the knobs/faders and store them as a variable.
+## Step 2: Find the knobs/faders and store them as variables.
 
 2. Find the input object and find the name of your controller.
 3. Copy that controller name and use it for 
