@@ -13,8 +13,8 @@ This repository comes with:
 
 ## Step 2: Add webmidi.js to three.js
 1. Add a webmidi script and webmidi-three.js script reference at the top of any three.js example of your choice.
-`<script src="src/js/webmidi.js"></script>`
-`<script src="src/js/webmidi-three.js"></script>`
+`<script src="src/js/webmidi.js"></script>
+<script src="src/js/webmidi-three.js"></script>`
 
 ## Step 2: Find the knobs/faders and store them as a variable.
 1. Plug in your midi controller.
