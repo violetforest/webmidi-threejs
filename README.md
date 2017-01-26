@@ -25,7 +25,9 @@ Add a webmidi and webmidi-three.js `<script>` reference at the top of any three.
 ![available input in console](/readme-images/available-input.png "available input in console")
 4. Copy the name of the midi controller and assign it to the `input` variable in webmidi-three.js:
 
-`var input = WebMidi.getInputByName("nanoKONTROL SLIDER/KNOB");`
+```javascript
+var input = WebMidi.getInputByName("nanoKONTROL SLIDER/KNOB");
+```
 
 ## Step 4: Store knob/faders as variables.
 1. Turn a knob or slide a fader while the console is still open.
