@@ -30,10 +30,11 @@ This repository comes with:
 2. Take note of the controller number:
 ![controller number](/readme-images/controller-number.png "controller number")
 3. Assign that number as your fade1 or knob1 variable.
-`if (e.controller.number === 6) {
+```if (e.controller.number === 6) {
     fade1 = e.value
     console.log("fade 1:", fade1)
-  }`
+  }
+```
 
 ## Step 3: Use that variable in the rest of your program.
 1. Add the script to any three.js sketch
