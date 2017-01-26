@@ -13,7 +13,9 @@ This repository comes with:
 2. Install webmidi. Instructions here https://github.com/cotejp/webmidi#installation
 
 ## Step 2: Find the controllers you want to use and store them as a variable.
-1. Plug in your midi cot
+1. Plug in your midi controller and assign it as your input.
+2. Find the knob or fader's controller number in the console.
+3. Assign that controller number
 
 ## Step 3: Use that variable in the rest of your program.
 1. Add the script to any three.js sketch
