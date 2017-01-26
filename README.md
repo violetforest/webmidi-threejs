@@ -33,8 +33,7 @@ This repository comes with:
 ```if (e.controller.number === 6) {
     fade1 = e.value
     console.log("fade 1:", fade1)
-  }
-```
+  }```
 
 ## Step 3: Use that variable in the rest of your program.
 1. Add the script to any three.js sketch
