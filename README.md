@@ -15,7 +15,12 @@ Can be used in any javascript program.
 2. Install webmidi https://github.com/cotejp/webmidi#installation
 
 ## Step 2: Find the controllers you want to use and store them as a variable.
+1. Plug in your midi cot
 
 ## Step 3: Use that variable in the rest of your program.
+1. Add the script to any three.js sketch
+2. Use that variable
+
+## Step 4: Open the example in a browser and turn some knobs.
 
 
