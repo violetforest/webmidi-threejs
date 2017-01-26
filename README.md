@@ -21,6 +21,7 @@ This repository comes with:
 2. Open your example in a browser.
 3. Open the browser's console.
 4. Copy the name of the midi controller and assign it to the `input` variable:
+
 `var input = WebMidi.getInputByName("nanoKONTROL SLIDER/KNOB");`
 
 ## Step 2: Find the knobs/faders and store them as a variable.
