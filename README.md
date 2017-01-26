@@ -9,7 +9,10 @@ This repository comes with:
 
 Can be used in any javascript program. 
 
-## Step 1: Configure webmidi.js and test your midi controller with it per these instructions.
+## Step 1: Configure webmidi.js.
+1. To use WebMidi.js on Safari, Firefox and Internet Explorer, you will first need to install Jazz-Plugin. Instructions here: https://github.com/cotejp/webmidi#using-webmidijs-with-the-jazz-plugin
+
+2. Install webmidi https://github.com/cotejp/webmidi#installation
 
 ## Step 2: Find the controllers you want to use and store them as a variable.
 
