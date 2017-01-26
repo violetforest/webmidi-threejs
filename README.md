@@ -28,14 +28,16 @@ This repository comes with:
 ## Step 4: Store knob/faders as variables.
 1. Turn a knob or slide a fader while the console is still open.
 2. Take note of the controller number:
-![controller number](/readme-images/available-input.png "controller number")
+![controller number](/readme-images/controller-number.png "controller number")
 3. Assign that number as your fade1 or knob1 variable.
 `
-      //fade 1
-      if (e.controller.number === 6) {
-        fade1 = e.value
-        console.log("fade 1:", fade1)
-      }
+if (e.controller.number === 6) {
+
+  fade1 = e.value
+
+  console.log("fade 1:", fade1)
+
+}
 `
 
 ## Step 3: Use that variable in the rest of your program.
