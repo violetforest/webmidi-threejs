@@ -4,7 +4,7 @@ Listens to control change message on all channels, including but not limited to 
 
 This repository comes with:
 * webmidi.js
-* the entire Three.js library with native examples to start VJing right away
+* the entire Three.js library with native examples to start VJing in the browser right away
 * custom webmidi.js script to pull values from a connected midi controller and store them as variables
 
 ## Step 1: Configure webmidi.js.
