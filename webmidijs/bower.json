@@ -1,0 +1,33 @@
+{
+  "name": "WebMidi",
+  "homepage": "https://github.com/cotejp/webmidi",
+  "authors": [
+    "Jean-Philippe Côté <jp@cote.cc> (http://cote.cc)"
+  ],
+  "description": "Tame the Web MIDI API. Send MIDI messages with ease using user-friendly functions. React to MIDI events with simple event listeners.",
+  "main": "src/webmidi.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "midi",
+    "message",
+    "web"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "docs",
+    "examples",
+    "node_modules",
+    "BANNER",
+    "bower.json",
+    "Gruntfile.js",
+    "package.json",
+    "README.md",
+    "test",
+    "webmidi.min.js"
+  ]
+}

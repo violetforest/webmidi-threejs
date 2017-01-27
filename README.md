@@ -42,9 +42,16 @@ if (e.controller.number === 6) {
 ```
 
 ## Step 3: Use that variable in the rest of your program.
-1. Add the script to any three.js sketch
-2. Use that variable
+1. Use that variable in your sketches
+```javascript
+      function render() {
+        var time = Date.now() * 0.0001;
+        group.rotation.y += (fade2 / 10000) ;
+        camera.position.z = fade3 * 10 ;
+        renderer.render( scene, camera );
+      }
+```
 
-## Step 5: Open the example in a browser and turn some knobs.
+## Step 5: Open the example in a browser and turn knobs.
 
 
